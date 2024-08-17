@@ -13,7 +13,7 @@ Check se está usando o Node.js LTS (neste momento é o 18)
 
 ```shell
 node -v
-# v20.16.0
+# v20.15.1
 ```
 
 ## Abra  pasta do treinamento
@@ -27,7 +27,7 @@ cd TAJS
 e então Restaure os pacotes:
 
 ```shell
-cd aula02-stubs
+cd aula01-setup-jest
 npm ci --silent
 ```
 
@@ -48,7 +48,7 @@ A pasta [.vscode](./../.vscode) está localizada na raiz dos projetos assim não
 
 ### Abra  pasta do treinamento no VSCode
 
-Supondo que você está em `TAJS/aula02-stubs` e já restaurou os pacotes seguindo os passos anteriores execute:
+Supondo que você está em `TAJ/aula01-setup-jest` e já restaurou os pacotes seguindo os passos anteriores execute:
 ```shell
 code ../
 # para abrir a pasta que contem todos os projetos
@@ -66,7 +66,7 @@ Seu terminal deverá aparecer algo como:
  *  Executing task: bash -c 'PROJECT_DIR=$(dirname /Users/seu-nome/cursos/aula01-setup-jest/test/template.test.js); cd "$PROJECT_DIR"; npm run test:debug'
 
 
-> aula02-stubs@0.0.1 test:debug
+> aula01-setup-jest@0.0.1 test:debug
 > node --experimental-vm-modules --inspect-brk node_modules/jest/bin/jest.js --watchAll
 
 Debugger listening on ws://127.0.0.1:9229/0b60b289-f3cb-43f6-b521-66047adc9594

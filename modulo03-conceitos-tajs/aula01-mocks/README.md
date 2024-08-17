@@ -1,4 +1,4 @@
-# Template Inicial Jest - Método TAJS - Erick Wendel
+# Template Inicial Jest - Método TAJS
 
 - [x] - Trabalha com ES Modules
 - [x] - Possui live reload
@@ -48,7 +48,7 @@ A pasta [.vscode](./../.vscode) está localizada na raiz dos projetos assim não
 
 ### Abra  pasta do treinamento no VSCode
 
-Supondo que você está em `modulo03-conceitos-tajs/aula01-mocks` e já restaurou os pacotes seguindo os passos anteriores execute:
+Supondo que você está em `TAJS/aula01-mocks` e já restaurou os pacotes seguindo os passos anteriores execute:
 ```shell
 code ../
 # para abrir a pasta que contem todos os projetos
