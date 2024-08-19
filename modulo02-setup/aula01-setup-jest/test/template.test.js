@@ -1,4 +1,4 @@
-import {it, expect} from '@jest/globals';
+import {describe ,it, expect, jest } from '@jest/globals';
 
 function sum (a, b) {
     return a + b;
