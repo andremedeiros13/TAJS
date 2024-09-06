@@ -1,0 +1,27 @@
+{
+  "name": "aula01-setup-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync start -w --server public",
+    "test": "npx jest --runInBand --injectGlobals false test/",
+    "test:dev": "npx jest --runInBand --injectGlobals false --watchAll test/",
+    "test:debug": "node --inspect-brk node_modules/jest/bin/jest.js --runInBand --injectGlobals false --watchAll test/"
+  },
+  "keywords": [],
+  "author": "andremedeiros",
+  "license": "ISC",
+  "description": "",
+  "engines": {
+    "node": "v20.16.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "lokijs": "^1.5.12"
+  }
+}
