@@ -42,16 +42,16 @@ npm run test:watch
 
 ## Checklist Desafio
 
-- [] - Adicionar banco de dados para API
+- [x] - Adicionar banco de dados para API
 - [] - Testes e2e para toda a UI na Web
 - [] - Testes e2e para toda a UI na CLI
-- [] - Testes e2e para toda a API
-- [] - Testes unitários com 100% de code coverage
+- [x] - Testes e2e para toda a API
+- [x] - Testes unitários com 100% de code coverage
 
 ### Plus
 
-- [] - Adicionar funcionalidade para cadastro de pessoa
-- [] - Adicionar funcionalidade para edição de pessoa
-- [] - Adicionar funcionalidade para atualização de pessoa
-- [] - Adicionar funcionalidade para remoção de pessoa
+- [x] - Adicionar funcionalidade para cadastro de pessoa
+- [x] - Adicionar funcionalidade para edição de pessoa
+- [x] - Adicionar funcionalidade para atualização de pessoa
+- [x] - Adicionar funcionalidade para remoção de pessoa
 - [] - Colocar testes para rodar em GitHub Actions
